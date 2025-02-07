@@ -1,4 +1,4 @@
-// Adicionando interatividade ao formul·rio de contato
+// Adicionando interatividade ao formul√°rio de contato
 document.getElementById('contact-form').addEventListener('submit', function (e) {
     e.preventDefault();
     const name = document.getElementById('name').value;
