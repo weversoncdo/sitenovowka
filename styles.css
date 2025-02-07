@@ -1,4 +1,4 @@
-/* Reset b�sico */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -194,5 +194,78 @@ footer .social-links a {
 
     header nav ul li {
         margin: 10px 0;
+    }
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.banner-text button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner-text button:hover {
+    background-color: #e64a19;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .banner-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+    }
+
+    .banner-text button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
     }
 }
